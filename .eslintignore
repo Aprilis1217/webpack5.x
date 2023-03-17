@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+esm/*
+lib/*
+mock/*
+build/*
+shell/*
+release/*
+dist/*
+test/

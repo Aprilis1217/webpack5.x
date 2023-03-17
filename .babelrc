@@ -1,0 +1,19 @@
+// babelrc
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "chrome": "60",
+          "ie": "9",
+          "firefox": "60",
+          "safari": "10",
+          "edge": "17"
+        },
+        "corejs": "3",
+        "useBuiltIns": "usage"
+      }
+    ]
+  ]
+}
